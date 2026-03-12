@@ -1,6 +1,6 @@
 services:
   directus:
-    image: directus/directus:11.3.5
+    image: directus/directus:latest
     ports:
       - 8055:8055
     volumes:
@@ -11,4 +11,5 @@ services:
       SECRET: "replace-with-secure-random-value"
       DB_CLIENT: "sqlite3"
       DB_FILENAME: "/directus/database/data.db"
+
       WEBSOCKETS_ENABLED: "true"
