@@ -1,1 +1,1 @@
-FROM directus/directus:11.3.5
+FROM directus/directus:latest
